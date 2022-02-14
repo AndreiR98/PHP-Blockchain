@@ -1,0 +1,22 @@
+{
+    "name": "randrei98/ecdsaphp",
+    "description": "Elliptical curve cryptography for PHP",
+    "type": "library",
+    "require": {
+        "brick/math": "0.9.3",
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ECDSA\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "AndreiR98",
+            "email": "rotaru.andrei98@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "tuupola/base58": "^2.1",
+        "randrei98/ecdsaphp": "^1.0"
+    }
+}
