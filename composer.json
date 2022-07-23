@@ -1,6 +1,25 @@
 {
+    "name": "randrei98/phpblockchain",
+    "description": "PHP Blockchain",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Blockchain\\": "src",
+            "Block\\": "src/Block",
+            "Chain\\": "src/Chain"
+        }
+    },
+    "authors": [
+        {
+            "name": "AndreiR98",
+            "email": "rotaru.andrei98@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "require": {
-        "tuupola/base58": "^2.1",
-        "randrei98/ecdsaphp": "^1.0"
+        "randrei98/ecdsaphp":"^1.0.2",
+        "tuupola/base58":"^2.1.0",
+        "furqansiddiqui/bip39-mnemonic-php": "^0.1.4"
     }
 }

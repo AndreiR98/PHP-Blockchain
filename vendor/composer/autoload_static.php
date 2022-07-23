@@ -11,13 +11,23 @@ class ComposerStaticInit4e7ae087f1cd462692e2ae77a0d00f32
         array (
             'Tuupola\\' => 8,
         ),
+        'F' => 
+        array (
+            'FurqanSiddiqui\\BIP39\\' => 21,
+        ),
         'E' => 
         array (
             'ECDSA\\' => 6,
         ),
+        'C' => 
+        array (
+            'Chain\\' => 6,
+        ),
         'B' => 
         array (
             'Brick\\Math\\' => 11,
+            'Blockchain\\' => 11,
+            'Block\\' => 6,
         ),
     );
 
@@ -26,13 +36,29 @@ class ComposerStaticInit4e7ae087f1cd462692e2ae77a0d00f32
         array (
             0 => __DIR__ . '/..' . '/tuupola/base58/src',
         ),
+        'FurqanSiddiqui\\BIP39\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/furqansiddiqui/bip39-mnemonic-php/src',
+        ),
         'ECDSA\\' => 
         array (
             0 => __DIR__ . '/..' . '/randrei98/ecdsaphp/src',
         ),
+        'Chain\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Chain',
+        ),
         'Brick\\Math\\' => 
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
+        ),
+        'Blockchain\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Block\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Block',
         ),
     );
 

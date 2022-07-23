@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9450d7848145dcfce1d0974b34103cb",
+    "content-hash": "af22dffd85ce9a7517a5de56b85b75a1",
     "packages": [
         {
             "name": "brick/math",
@@ -65,6 +65,48 @@
                 }
             ],
             "time": "2021-08-15T20:50:18+00:00"
+        },
+        {
+            "name": "furqansiddiqui/bip39-mnemonic-php",
+            "version": "0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/furqansiddiqui/bip39-mnemonic-php.git",
+                "reference": "d5fda3707e64284438443ea76c26f775c99d6fed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/furqansiddiqui/bip39-mnemonic-php/zipball/d5fda3707e64284438443ea76c26f775c99d6fed",
+                "reference": "d5fda3707e64284438443ea76c26f775c99d6fed",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FurqanSiddiqui\\BIP39\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "BIP39 Mnemonics implementation in PHP",
+            "keywords": [
+                "BIP-0039",
+                "bip39",
+                "mnemonics"
+            ],
+            "support": {
+                "issues": "https://github.com/furqansiddiqui/bip39-mnemonic-php/issues",
+                "source": "https://github.com/furqansiddiqui/bip39-mnemonic-php/tree/0.1.4"
+            },
+            "time": "2021-05-01T05:32:54+00:00"
         },
         {
             "name": "randrei98/ecdsaphp",

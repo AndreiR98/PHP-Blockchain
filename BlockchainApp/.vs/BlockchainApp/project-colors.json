@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d83b1f32-83fb-45b6-99d2-a97fbf141797": {
+      "ProjectGuid": "d83b1f32-83fb-45b6-99d2-a97fbf141797",
+      "DisplayName": "BlockchainApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

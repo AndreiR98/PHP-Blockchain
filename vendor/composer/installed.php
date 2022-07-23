@@ -2,23 +2,14 @@
     'root' => array(
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'type' => 'library',
+        'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e11ef353740d07255a91c854a85e5d16e5ddd332',
-        'name' => '__root__',
+        'reference' => '813cb0bdcf0ce0f92856ecc6b8330b296597b8fd',
+        'name' => 'randrei98/phpblockchain',
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'reference' => 'e11ef353740d07255a91c854a85e5d16e5ddd332',
-            'dev_requirement' => false,
-        ),
         'brick/math' => array(
             'pretty_version' => '0.9.3',
             'version' => '0.9.3.0',
@@ -28,6 +19,15 @@
             'reference' => 'ca57d18f028f84f777b2168cd1911b0dee2343ae',
             'dev_requirement' => false,
         ),
+        'furqansiddiqui/bip39-mnemonic-php' => array(
+            'pretty_version' => '0.1.4',
+            'version' => '0.1.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../furqansiddiqui/bip39-mnemonic-php',
+            'aliases' => array(),
+            'reference' => 'd5fda3707e64284438443ea76c26f775c99d6fed',
+            'dev_requirement' => false,
+        ),
         'randrei98/ecdsaphp' => array(
             'pretty_version' => '1.0.2',
             'version' => '1.0.2.0',
@@ -35,6 +35,15 @@
             'install_path' => __DIR__ . '/../randrei98/ecdsaphp',
             'aliases' => array(),
             'reference' => 'f9028cc682fe35a9f7ba84163ec1e70a278e478f',
+            'dev_requirement' => false,
+        ),
+        'randrei98/phpblockchain' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '813cb0bdcf0ce0f92856ecc6b8330b296597b8fd',
             'dev_requirement' => false,
         ),
         'tuupola/base58' => array(

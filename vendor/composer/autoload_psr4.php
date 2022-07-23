@@ -7,6 +7,10 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Tuupola\\' => array($vendorDir . '/tuupola/base58/src'),
+    'FurqanSiddiqui\\BIP39\\' => array($vendorDir . '/furqansiddiqui/bip39-mnemonic-php/src'),
     'ECDSA\\' => array($vendorDir . '/randrei98/ecdsaphp/src'),
+    'Chain\\' => array($baseDir . '/src/Chain'),
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
+    'Blockchain\\' => array($baseDir . '/src'),
+    'Block\\' => array($baseDir . '/src/Block'),
 );
